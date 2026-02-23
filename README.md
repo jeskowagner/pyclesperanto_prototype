@@ -102,7 +102,7 @@ device = cle.select_device("TX")
 print("Used GPU: ", device)
 
 # load data
-image = imread('https://imagej.nih.gov/ij/images/blobs.gif')
+image = imread('https://imagej.net/ij/images/blobs.gif')
 
 # process the image
 inverted = cle.subtract_image_from_scalar(image, scalar=255)
